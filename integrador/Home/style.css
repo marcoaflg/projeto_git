@@ -1,0 +1,24 @@
+@import "/font/Arciform.otf";
+
+	
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    background-image: url("/img/BG.jpge.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Arciform';
+    background-size: cover;
+    background-color: #cccccc;
+   }
+
+.logo img {
+    margin: 0% 10%;
+}
+
+.appsicons img {
+    
+    margin: 700px 10px;
+}
