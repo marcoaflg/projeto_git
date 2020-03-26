@@ -1,0 +1,128 @@
+header {
+    min-height: 40px;
+    max-height: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgba(47, 79, 79, 0.6);
+    z-index: 2;
+
+}
+
+body{
+    background-image: url("Backgroung/BG.jpge.jpg");
+}
+
+
+.header-button {
+    
+text-indent:0;
+	display:inline-block;
+	color:#ffffff; /* Cor do Texto*/
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font: size 32;
+	font-weight:normal;
+    font-style:normal;
+    
+    height:40px;
+    line-height:40px;
+    
+    width: auto;
+
+	text-decoration:none;
+	text-align:center;
+    text-shadow:0px 3px 6px #2f6627;
+    
+}
+.header-button:hover {
+    color: gray; /* Cor de quando o mouse fica encima*/
+}
+.header-button:active {
+	position:relative;
+	top:2px;
+}
+
+#button-criar-evento {
+    position: relative;;
+    left: 200px;
+}
+
+#button-login {
+    position: relative;
+    left: 1000px;
+}
+
+#button-cadastro {
+    position: relative;
+    left: 1050px;
+}
+
+#button-estou-aqui {
+
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+    position: fixed;
+    left: 1280px;
+    top:10px;
+}
+
+/*A PARTIR DAQUI */
+
+#logo-button{
+
+    color: white;
+    font-family: Arciform Sans;
+    font-size: 30px;
+    left: 30px;
+    width: 50px;
+    text-shadow: 5px 1px 1px black;
+    transition: all 1s;
+    border-radius:1%;
+}
+
+#logo-button:hover{
+    font-size:30.2px;
+
+}
+
+
+.menu-usuario{
+    border-color: blue;
+    position: relative;
+    top:50px;
+    left: 30px;
+    height: 50px;
+    font-family: Arciform Sans;
+    font-size: 20px;
+    justify-content: flex-start;
+    transition: all 0.3s;
+    
+}
+
+.menu-usuario:hover{
+    text-shadow: 1px 1px 1px black;
+}
+
+.logo-evento{
+    display:flex;
+    flex-wrap:wrap;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    transition: all 1s;
+    position: center;
+
+
+}
+
+#geral-evento{
+    position: absolute;
+    left: 200px;
+    top: 600px;
+    color:white;
+    background-color: rgba(1,1,1,0.2);
+    margin: 30px 15px 750px 120px
+}
