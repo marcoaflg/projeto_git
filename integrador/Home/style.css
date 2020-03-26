@@ -1,24 +1,78 @@
-@import "/font/Arciform.otf";
+@font-face{
+    font-family: 'MyFont';
+    src: url(/font/Arciform.otf);
+}
 
-	
 * { 
     margin: 0; 
-    padding: 0; 
+    padding: 0;
+    font-family: 'MyFont'; 
 }
 
 body {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    grid-gap: 50px;
     background-image: url("/img/BG.jpge.jpg");
     background-repeat: no-repeat;
-    font-family: 'Arciform';
     background-size: cover;
-    background-color: #cccccc;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
    }
 
 .logo img {
-    margin: 0% 10%;
+    grid-area: header;
+    padding: 0px 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.appsicons img {
+.link {
+    text-align: right;
+    margin: 0 450px;
+    font-size: 30px;
+    position: relative;
+    word-spacing: 30px;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
     
-    margin: 700px 10px;
+}
+
+.link img {
+    margin: 15px;
+}
+
+.banner img {
+    display: grid;
+    padding: center;
+    left: 0px;
+    position: relative;
+}
+
+.app-icons img {
+    grid-area: footer;
+    position: relative;
+    margin: 20% 10px;
+    left: 50px;
+    top: 700px;
+}
+
+.social img {
+    grid-area: footer;
+    position: relative;
+    margin: 10% 10px;
+    left: 532%;
 }
