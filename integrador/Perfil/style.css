@@ -1,20 +1,40 @@
 body{
     background-image: url("/background/BG.jpg");
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
- 
 }
 
-img {
-
-    max-width: 100%;
+#texto-logo,
+p {
+  font-size: "Open Sans Condensed", "Arial", sans-serif;
+  position: relative;
+  top: 10px;
+  left: 30px;
 }
-/* -------------------botoes -------------*/
+
+#criar-evento{ 
+
+    position: relative;
+    top: -10px;
+    left: 200px;
+
+}
 
 .button-p {
     background-color:rgba(47, 79, 79, 0.6);
+
+    /* bordas arredondadas */
+    /*
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;*/
     
 text-indent:0;
 	display:inline-block;
@@ -50,94 +70,89 @@ text-indent:0;
 #button-meu-perfil {
 
     background-color:rgba(47, 79, 79, 0.4);
+
+    position: fixed;
+    top: 200px;
+    left: 20px;
     text-align: justify;
     text-indent: 10px;
     font-size: 24px;
-    margin-left: -20px;
 
 }
 
+#button-historico {
+
+    position: fixed;
+    top: 250px;
+    left: 30px;
+
+}
+#button-certificados {
+
+    position: fixed;
+    top: 300px;
+    left: 30px;
+
+}
+#button-interesses {
+
+    position: fixed;
+    top: 350px;
+    left: 30px;
+
+}
+#button-meus-dados {
+
+    position: fixed;
+    top: 400px;
+    left: 30px;
+
+}
 
 #button-eventos {
 
     background-color:rgba(47, 79, 79, 0.4);
-   
+
+    position: fixed;
+    top: 450px;
+    left: 20px;
     text-align: justify;
     text-indent: 10px;
     font-size: 24px;
-    margin-left: -20px;
 
 }
 
-/*-------------------------listas---------------------- */
+#button-criar-evento-2 {
 
-.menu-rapido-do-perfil{
-
-    margin-top: 125px;
-
-}
-
-li {
-    margin-bottom: 5px;
-    list-style-type: none;
-}
-
-ul {
-    list-style-type: none;
-    
-}
-
-.list-style-none{
-
-    list-style: none;
+    position: fixed;
+    top: 500px;
+    left: 30px;
 
 }
 
-.tela-do-perfil{
+#button-meus-eventos {
 
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    flex-wrap: wrap;
-
-}
-
-#perfil{
-
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    flex-wrap: wrap;
+    position: fixed;
+    top: 550px;
+    left: 30px;
 
 }
 
-#perfil2{
+#button-participar {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0;
-    flex-wrap: wrap;
-    
-}
-
-.lista-do-meio-do-perfil{
-
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    flex-wrap: wrap;
+    position: fixed;
+    top: 600px;
+    left: 30px;
 
 }
 
-.identificação-do-perfil{
+#button-pesquisar {
 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    position: fixed;
+    top: 650px;
+    left: 30px;
+
 }
-
-/* ---------------------------------------------------------*/
 
 .box {
 
@@ -164,17 +179,25 @@ ul {
     height: 50px;
     width: 850px;
 
+    position: fixed;
+    top: 100px;
+    left: 280px;
+
     font-size:32px;
-    margin-left: 40px;
 
 }
 
 #box-descricao-perfil {
 
-    height: 290px;
+    height: 300px;
     width: 675px;
 
+    position: fixed;
+    top: 155px;
+    left: 455px;
+
     text-indent: 0px;
+
 
 }
 
@@ -183,8 +206,13 @@ ul {
     height: 40px;
     width: 170px;
 
+    position: fixed;
+    top: 155px;
+    left: 280px;
+
     line-height:40px;
 
+    
 }
 
 #foto-de-perfil{
@@ -193,6 +221,9 @@ ul {
     height: 150px;
 
     border-radius: 50%;
+    position: fixed;
+    left: 280px;
+    top:200px;
 
 }
 
@@ -201,15 +232,22 @@ ul {
     height: 40px;
     width: 170px;
 
+    position: fixed;
+    top: 355px;
+    left: 280px;
+
     line-height:43px;
 }
 
 #social-network {
-    
-    display: inline-flex;
-    height: 40px;
+
+    height: 55px;
     width: 170px;
-    justify-content: space-around;
+
+    position: fixed;
+    top: 400px;
+    left: 280px;
+
 }
 
 .icone{
@@ -218,23 +256,50 @@ ul {
     height: 30px;
 
     border-radius: 50%;
-
-    margin-top: 5px;
-    margin-left: -10px;
+    position: fixed;
  
 }
 
-.icone:active {
+#icone-discord {
 
-	position:relative;
-    top:2px;
-    
+    position: fixed;
+    top: 410px;
+    left: 273px;
+
 }
 
+#icone-facebook{
+
+    position: fixed;
+    top: 410px;
+    left: 313px;
+
+}
+
+#icone-gmail{
+
+    position: fixed;
+    top: 410px;
+    left: 353px;
+
+}
+
+#icone-whatsapp
+{
+
+    position: fixed;
+    top: 410px;
+    left: 393px;
+
+}
 #box-visualizacao-rapida{
 
     height: 200px;
     width: 850px;
+
+    position: fixed;
+    top: 460px;
+    left: 280px;
 
     font-size:32px;
   

@@ -3,10 +3,8 @@
 <head>
 
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="style.css">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+  <link rel="stylesheet" href="header.css">
   
 
     <title>Meu Perfil</title>
@@ -17,128 +15,83 @@
 
     <header>
 
-        <section class="header-nav">
+        <div>
 
-            <div class="item1">
+            <a href="criar-evento.html" class="header-button" id="button-criar-evento" title="Ir para página de criação de eventos">Criar evento</a>
 
-                <a href="criar-evento.html" class="header-button" id="button-criar-evento" title="Ir para página de criação de eventos">Criar evento</a>
-            
-            </div>
+            <a href="pagina-de-login.html" class="header-button" id="button-login" title="Ir para página de login">Login</a>
 
-            <div class="item2">
-                
-                <dd><a href="pagina-de-login.html" class="header-button" id="button-login" title="Ir para página de login">Login</a></dd>
-                <dd><a href="pagina-de-cadastro.html" class="header-button" id="button-cadastro" title="Ir para página de cadastro">Cadastro</a></dd>
-                <dd><a href="confimar-presenca.html"> <img src="/icones/button-estou-aqui.jpg" id="button-estou-aqui" title="Confirmar presença em um evento"> </a></dd>
+            <a href="pagina-de-cadastro.html" class="header-button" id="button-cadastro" title="Ir para página de cadastro">Cadastro</a>
 
-            </div>
+        </div>
 
-        </section>
+        <a href="confimar-presenca.html" title="Confirmar presença em um evento"> <img src="/icones/button-estou-aqui.jpg" id="button-estou-aqui"> </a>
 
-        <a href="home.html"> <img src="/icones/Home Button.png" id="logo" title="Voltar para a pagina inicial"/></a>
     </header>
 
-    <ul class="teste">
-        <li></li>
-    </ul>
+    <div id="menu-rapido">
 
-   <ul class="tela-do-perfil">
-        <li class= "lista-da-esquerda-do-perfil">
+        <a href="perfil.html" class="button-p" id="button-meu-perfil">Meu perfil</a>
 
-            <ul class="menu-rapido-do-perfil"> 
-                
-                <li><a href="perfil.html" class="button-p" id="button-meu-perfil">Meu perfil</a></li>
+        <a href="historico.html" class="button-p" id="button-historico">Histórico</a>
 
-                <li><a href="historico.html" class="button-p" id="button-historico">Histórico</a></li>
+        <a href="certificados.html" class="button-p" id="button-certificados">Certificados</a>
 
-                <li><a href="certificados.html" class="button-p" id="button-certificados">Certificados</a></li>
+        <a href="interesses.html" class="button-p" id="button-interesses">Interesses</a>
+        
+        <a href="meus-dados.html" class="button-p" id="button-meus-dados">Meus dados</a>
 
-                <li><a href="interesses.html" class="button-p" id="button-interesses">Interesses</a></li>
-                
-                <li><a href="meus-dados.html" class="button-p" id="button-meus-dados">Meus dados</a></li>
+        <a href="pesquisar-eventos.html" class="button-p" id="button-eventos">Eventos</a>
 
-                <li><a href="pesquisar-eventos.html" class="button-p" id="button-eventos">Eventos</a></li>
+        <a href="criar-evento.html" class="button-p" id="button-criar-evento-2">Criar evento</a>
 
-                <li><a href="criar-evento.html" class="button-p" id="button-criar-evento-2">Criar evento</a></li>
+        <a href="meus-events.html" class="button-p" id="button-meus-eventos">Meus eventos</a>
 
-                <li><a href="meus-events.html" class="button-p" id="button-meus-eventos">Meus eventos</a></li>
+        <a href="participar-de-evento.html" class="button-p" id="button-participar">Participar</a>
 
-                <li><a href="participar-de-evento.html" class="button-p" id="button-participar">Participar</a></li>
+        <a href="pesquisar-evento.html" class="button-p" id="button-pesquisar">Pesquisar</a>
 
-                <li><a href="pesquisar-evento.html" class="button-p" id="button-pesquisar">Pesquisar</a></li> 
-            </ul>
-        </li>
+    </div>
 
-        <li class= "lista-do-meio-do-perfil">
+    <div class= "box" id="box-perfil">
+        Meu perfil
 
-            <ul id="perfil">
 
-                <li>
-                    <div class= "box" id="box-perfil">
+    </div>
 
-                        Meu perfil
-            
-                    </div>
-                </li>
+    <div class="box" id="box-descricao-perfil">
+        Descrição do perfil, titulos, formação, representação, etc<br>Ex.: Corredor de labirintos, comedor de frutas, bolinhas e eventualmente fantasmas.<br>Rei dos clássicos de arcade.<br> "Waka waka" - Shakira imitando Pac-Man
+    </div>
 
-                <ul id="perfil2">
+    <div class="box" id="cargo">
+        Estudante
+    </div>
 
-                    <ul class="identificação-do-perfil">
+    <div>
 
-                        <li>
-                            <div class="box" id="cargo">
+        <img src="/img/img-perfil.jpg" id="foto-de-perfil">
 
-                                Estudante
+    </div>
 
-                            </div>
-                        </li>
+    <div class="box" id="user-name">
 
-                        <li>
-                            <div>
+        Pac-man
 
-                                <img src="/img/img-perfil.jpg" id="foto-de-perfil">
-                        
-                            </div>
-                        </li>
+    </div>
 
-                        <li>
-                            <div class="box" id="user-name">
+    <div class="box" id="social-network">
+        
+        <a href="https://discordapp.com/" id="icone-discord"><img src="/icones/Discord.png" class="icone"></a>
+        <a href="https://www.facebook.com/" id="icone-facebook"><img src="/icones/facebook.png"class="icone"></a>
+        <a href="https://mail.google.com/" id="icone-gmail"><img src="/icones/gmail.png" class="icone"></a>
+        <a href="https://web.whatsapp.com/" id="icone-whatsapp"><img src="/icones/whatsapp.png" class="icone"></a>
 
-                                Pac-man
-                        
-                            </div>
-                        </li>
+    </div>
 
-                        <li>
-                            <div class="box" id="social-network">
-                
-                                <a href="https://discordapp.com/" id="icone-discord"><img src="/icones/Discord.png" class="icone"></a>
-                                <a href="https://www.facebook.com/" id="icone-facebook"><img src="/icones/facebook.png"class="icone"></a>
-                                <a href="https://mail.google.com/" id="icone-gmail"><img src="/icones/gmail.png" class="icone"></a>
-                                <a href="https://web.whatsapp.com/" id="icone-whatsapp"><img src="/icones/whatsapp.png" class="icone"></a>
-                        
-                            </div>
-                        </li>
+    <div class="box" id="box-visualizacao-rapida">
 
-                    </ul>
 
-                    <div class="box" id="box-descricao-perfil">
-                         Descrição do perfil, titulos, formação, representação, etc<br>Ex.: Corredor de labirintos, comedor de frutas, bolinhas e eventualmente fantasmas.<br>Rei dos clássicos de arcade.<br> "Waka waka" - Shakira imitando Pac-Man
-                    </div>
+    </div>
 
-                </ul>
-
-                <ul id="perfil3">
-
-                    <div class="box" id="box-visualizacao-rapida">
-
-                    </div>
-
-                </ul>
-
-            </ul>
-
-        </li>  
-   </ul>
 </body>
-</html>     
+</html>

@@ -1,47 +1,22 @@
 header {
-
     min-height: 40px;
     max-height: 40px;
     position: fixed;
-    left: 0px;
-    top: 0px;
-    right:0px;
-
+    top: 0;
+    right: 0;
+    left: 0;
     background: rgba(47, 79, 79, 0.6);
     z-index: 2;
 
 }
 
-.header-nav {
-
-    display: flex;
-    max-height: 40px;
-
-    justify-content: space-around;
-
+body{
+    background-image: url("/background/BG.jpg");
 }
-
-.item1 {
-
-    display: flex;
-    justify-content: space-around;
-
-    max-height: 40px;
-
-}
-.item2 {
-
-    display: flex;
-    justify-content: space-around;
-
-    max-height: 40px;
-
-}
-
 
 .header-button {
     
-    text-indent:0;
+text-indent:0;
 	display:inline-block;
 	color:#ffffff; /* Cor do Texto*/
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -59,36 +34,36 @@ header {
     text-shadow:0px 3px 6px #2f6627;
     
 }
-
 .header-button:hover {
-
     color: gray; /* Cor de quando o mouse fica encima*/
-
 }
-
 .header-button:active {
-
 	position:relative;
 	top:2px;
 }
 
-#button-estou-aqui {
-
-    width: 125px;
-    height: 125px;
-
-    border-radius: 50%;
-
-    margin-top: 20px;
-
+#button-criar-evento {
+    position: relative;;
+    left: 200px;
 }
 
-#logo{
+#button-login {
+    position: relative;
+    left: 1000px;
+}
 
-    width: 125px;
-    height: 125px;
+#button-cadastro {
+    position: relative;
+    left: 1050px;
+}
 
-    padding-left: 45px;
-    margin-top: -20px;
+#button-estou-aqui {
 
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+    position: fixed;
+    left: 1280px;
+    top:10px;
 }
