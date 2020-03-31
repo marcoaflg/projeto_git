@@ -11,14 +11,9 @@ header {
 }
 
 body{
-    background-image: url("/Background/BG.jpg");
+    background-image: url("/background/BG.jpg");
 }
-/*
-.logo-button{
-    color: white;
-    font-family:;
-}
-*/
+
 .header-button {
     
 text-indent:0;

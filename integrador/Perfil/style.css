@@ -292,3 +292,15 @@ text-indent:0;
     left: 393px;
 
 }
+#box-visualizacao-rapida{
+
+    height: 200px;
+    width: 850px;
+
+    position: fixed;
+    top: 460px;
+    left: 280px;
+
+    font-size:32px;
+  
+}
