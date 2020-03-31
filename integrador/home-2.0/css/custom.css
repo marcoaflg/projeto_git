@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url(/font/Arciform.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'MyFont';
+}
+
+body {
+    background-image: url("/img/BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav {
+    margin-bottom: 295px;
+}
+
+.slider {
+    margin-top: -300px;
+}
+
+.link {
+    font-size: 30px;
+    position: relative;
+    word-spacing: 10px;
+}
+
+
+.link a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.link img {
+    position: relative;
+    border-image: auto;
+}
+
+footer {
+    margin-top: 70px;
+}
