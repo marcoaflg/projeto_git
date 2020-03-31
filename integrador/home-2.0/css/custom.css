@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MyFont';
-    src: url(/font/Arciform.otf);
+    src: url(../font/Arciform.otf);
 }
 
 * {
@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url("/img/BG.jpg");
+    background-image: url("../img/BG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
