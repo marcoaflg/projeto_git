@@ -62,11 +62,16 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     position: relative;
-    top:-350px;
+    top:-390px;
     left: 200px;
     text-align: center;
 }
-
+.logo img{
+    min-height: 264;
+    min-width: 600px;
+   max-height: 400px;
+   max-width:900;
+}
 .desc.event{
     text-align: center;
     padding: 15px 20px;
