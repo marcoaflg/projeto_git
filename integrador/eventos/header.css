@@ -11,9 +11,12 @@ header {
 }
 
 body{
-    background-image: url("Backgroung/BG.jpge.jpg");
+    background-image: url("/background/BG.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
 
 .header-button {
     
@@ -67,62 +70,4 @@ text-indent:0;
     position: fixed;
     left: 1280px;
     top:10px;
-}
-
-/*A PARTIR DAQUI */
-
-#logo-button{
-
-    color: white;
-    font-family: Arciform Sans;
-    font-size: 30px;
-    left: 30px;
-    width: 50px;
-    text-shadow: 5px 1px 1px black;
-    transition: all 1s;
-    border-radius:1%;
-}
-
-#logo-button:hover{
-    font-size:30.2px;
-
-}
-
-
-.menu-usuario{
-    border-color: blue;
-    position: relative;
-    top:50px;
-    left: 30px;
-    height: 50px;
-    font-family: Arciform Sans;
-    font-size: 20px;
-    justify-content: flex-start;
-    transition: all 0.3s;
-    
-}
-
-.menu-usuario:hover{
-    text-shadow: 1px 1px 1px black;
-}
-
-.logo-evento{
-    display:flex;
-    flex-wrap:wrap;
-    position: absolute;
-    left: 300px;
-    top: 200px;
-    transition: all 1s;
-    position: center;
-
-
-}
-
-#geral-evento{
-    position: absolute;
-    left: 200px;
-    top: 600px;
-    color:white;
-    background-color: rgba(1,1,1,0.2);
-    margin: 30px 15px 750px 120px
 }
