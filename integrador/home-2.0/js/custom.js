@@ -5,8 +5,6 @@ $('.slider').slider({
     interval: 3000
 });
 
-$('.slider').slider('active');
-
 $('#nextBtn').click(function(){
     $('.slider').slider('start');
     setTimeout(function(){

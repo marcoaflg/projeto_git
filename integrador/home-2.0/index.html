@@ -20,38 +20,44 @@
     <div class="content">
         <div class="container">
             <header>
+                <div class="fixed">
+                    <nav>
+                        <div class="row">
+                            <div class="col l12 teal z-depth-2">
+                                <div class="nav-wrapper">
+                                    <!-- Dropdown Trigger -->
+                                    <a class='dropdown-trigger center' href='#' data-target='dropdown1'><img
+                                            src="./img/flags/icons8-brasil-50.png" alt="pt-br"></a>
 
-                <nav>
-                    <div class="row">
-                        <div class="col l12 teal z-depth-2">
-                            <div class="nav-wrapper">
-                                <!-- Dropdown Trigger -->
-                                <a class='dropdown-trigger center' href='#' data-target='dropdown1'><img src="./img/flags/icons8-brasil-50.png" alt="pt-br"></a>
+                                    <!-- Dropdown Structure -->
+                                    <ul id='dropdown1' class='dropdown-content teal'>
+                                        <li><a href="#!"><img src="./img/flags/icons8-argentina-50.png"
+                                                    alt="esp-arg"></a>
+                                        </li>
+                                        <li><a href="#!"><img src="./img/flags/icons8-eua-50.png" alt="eng-usa"></a>
+                                        </li>
+                                    </ul>
 
-                                <!-- Dropdown Structure -->
-                                <ul id='dropdown1' class='dropdown-content teal'>
-                                    <li><a href="#!"><img src="./img/flags/icons8-argentina-50.png" alt="esp-arg"></a></li>
-                                    <li><a href="#!"><img src="./img/flags/icons8-eua-50.png" alt="eng-usa"></a></li>
-                                </ul>
-                                <a href="#!" class="brand-logo center"><img src="./img/Home Button.png"
-                                        alt="logo-image"></a>
-                                <ul class="right hide-on-med-and-down">
-                                    <li><a class="waves-effect waves-light btn cyan darken-4">Login</a></li>
-                                    <li><a class="waves-effect waves-light btn cyan darken-4">Cadastro</a></li>
-                                    <li><a class="waves-effect waves-light btn-large disabled cyan darken-4">Estou
-                                            Aqui!</a></li>
-                                </ul>
+                                    <a href="#!" class="brand-logo center"><img src="./img/Home Button.png"
+                                            alt="logo"></a>
+
+                                    <ul class="right hide-on-med-and-down">
+                                        <li><a class="waves-effect waves-light btn cyan darken-4">Login</a></li>
+                                        <li><a class="waves-effect waves-light btn cyan darken-4">Cadastro</a></li>
+                                        <li><a class="waves-effect waves-light btn-large disabled cyan darken-4">Estou
+                                                Aqui!</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </nav>
-
+                    </nav>
+                </div>
             </header>
 
             <section>
                 <div class="row">
                     <div class="col l12">
-                        <nav>
+                        <nav class="search">
                             <div class="nav-wrapper">
                                 <form>
                                     <div class="input-field teal lighten-4 z-depth-2">
@@ -73,33 +79,18 @@
                         <div class="slider">
                             <ul class="slides z-depth-2">
                                 <li>
-                                    <img src="./img/BG.jpg"> <!-- random image -->
+                                    <img src="./img/BG.jpg">
                                     <div class="caption center-align">
                                         <h3>Making your events great again!</h3>
                                         <h5 class="light grey-text text-lighten-3">EBE Group.</h5>
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="./img/Banner-Evento-Sao-Paulo-Lancamento-Livro.jpg"> <!-- random image -->
+                                    <img src="./img/Banner-Evento-Sao-Paulo-Lancamento-Livro.jpg">
                                     <div class="caption left-align">
-                                        <!-- <h3>Left Aligned Caption</h3>
-                                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
                                     </div>
-                                </li>
-                                <!-- <li>
-                                    <img src="http://lorempixel.com/580/250/nature/3">
-                                    <div class="caption right-align">
-                                        <h3>Right Aligned Caption</h3>
-                                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="http://lorempixel.com/580/250/nature/4">
-                                    <div class="caption center-align">
-                                        <h3>This is our big Tagline!</h3>
-                                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
-                                <!-- </div> -->
-                                </li>
+
+                                </li> -->
                             </ul>
                         </div>
                     </div>
@@ -108,60 +99,165 @@
 
             <section>
 
+                <div>
+                    <h1>Missão Cumprida</h1>
+                </div>
+
                 <div class="row">
 
                     <div class="col s4">
-                        <!-- Promo Content 1 goes here -->
+
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./img/past.events/gdgfoz.jpeg">
+                            </div>
+                            <div class="card-content teal z-depth-2">
+                                <span class="card-title activator white-text text-darken-4">GDG Foz do Iguaçu<i
+                                        class="material-icons right">more_vert</i></span>
+                                <p><a href="#">Confira</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i
+                                        class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked
+                                    on.</p>
+                            </div>
+                        </div>
+
                     </div>
 
                     <div class="col s4">
-                        <!-- Promo Content 2 goes here -->
+
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./img/past.events/frontendday.png">
+                            </div>
+                            <div class="card-content teal z-depth-2">
+                                <span class="card-title activator white-text text-darken-4">&lt;FRONTEND-DAY/&gt;<i
+                                        class="material-icons right">more_vert</i></span>
+                                <p><a href="#">Confira</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i
+                                        class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked
+                                    on.</p>
+                            </div>
+                        </div>
+
                     </div>
 
                     <div class="col s4">
-                        <!-- Promo Content 3 goes here -->
+
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./img/past.events/hackfest.jpeg">
+                            </div>
+                            <div class="card-content teal z-depth-2">
+                                <span class="card-title activator white-text text-darken-4">Hacktober Fest 2019<i
+                                        class="material-icons right">more_vert</i></span>
+                                <p><a href="#">Confira</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i
+                                        class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked
+                                    on.</p>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
             </section>
 
-            <footer class="page-footer teal darken-1 z-depth-2">
-                <div class="container">
+            <section>
+
+                <div>
+                    <h1>Humanos Envolvidos</h1>
+                </div>
+                <div class="row">
+                    <div class="col s4">
+                    <div id="wrapper">
+                        <img src="./img/avatar/marco.jpg"
+                            alt="">
+                        <h1>Marco Garcia</h1>
+                    </div>
+                </div>
+
+                <div class="col s4">
+                    <div id="wrapper">
+                        <img src="./img/avatar/vinicius.jpeg"
+                            alt="">
+                        <h1>Vinicius Jacik</h1>
+                    </div>
+                </div>
+
+                <div class="col s4">
+                    <div id="wrapper">
+                        <img src="./img/avatar/wilian.jpeg"
+                            alt="">
+                        <h1>Wilian Bueno</h1>
+                    </div>
+                </div>
+
                     <div class="row">
-                        <div class="col l6 s12">
-                            <div class="app-icons">
-                                <a href="/"><img src="./img/App Store Button.png" alt="appstore-icon"></a>
-                                <a href="/"><img src="./img/Google Play Button.png" alt="googleplay-icon"></a>
-                            </div>
-                        </div>
-                        <div class="col l4 offset-l2 s12">
-                            <div class="right-align">
-                                <div class="social-icons">
-                                    <a href="/"><img src="./img/social/icons8-gmail-50.png" alt="email"></a>
-                                    <a href="/"><img src="./img/social/icons8-facebook-50.png" alt="facebook"></a>
-                                    <a href="/"><img src="./img/social/icons8-whatsapp-50.png" alt="whatsapp"></a>
-                                    <a href="/"><img src="./img/social/icons8-instagram-50.png" alt="instagram"></a>
-                                    <a href="/"><img src="./img/social/icons8-logo-discord-50.png" alt="discord"></a>
-                                </div>
+                        <div class="col s12 m5 l12">
+                            <div class="card-panel teal">
+                                <span class="white-text">Engajado grupo de jovens prodígios da tecnologia, gestão e
+                                    publicidade, com incrível anseio por inovação e cocriação de ambientes colaborativos
+                                    e
+                                    imersivos ao aprendizado universal.
+                                    <p>Com a missão simples e direta de entregar antes de tudo a melhor experiência aos
+                                        empoderados usuários de nossa humilde, porém cativante e brava plataforma
+                                        online.
+                                    </p>
+                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="footer-copyright">
-                    <div class="container center-align">
-                        © 2020 Todos os direitos reservados.
-                    </div>
-                </div>
-            </footer>
-
-
         </div>
 
-        <!-- JQuery Mini CDN -->
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-        <!-- Compiled and minified JavaScript -->
-        <script src="./js/materialize.js"></script>
-        <script src="./js/custom.js"></script>
+        </section>
+
+        <footer class="page-footer teal darken-1 z-depth-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <div class="app-icons">
+                            <a href="/"><img src="./img/App Store Button.png" alt="appstore-icon"></a>
+                            <a href="/"><img src="./img/Google Play Button.png" alt="googleplay-icon"></a>
+                        </div>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <div class="right-align">
+                            <div class="social-icons">
+                                <a href="/"><img src="./img/social/icons8-gmail-50.png" alt="email"></a>
+                                <a href="/"><img src="./img/social/icons8-facebook-50.png" alt="facebook"></a>
+                                <a href="/"><img src="./img/social/icons8-whatsapp-50.png" alt="whatsapp"></a>
+                                <a href="/"><img src="./img/social/icons8-instagram-50.png" alt="instagram"></a>
+                                <a href="/"><img src="./img/social/icons8-logo-discord-50.png" alt="discord"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container center-align">
+                    © 2020 Todos os direitos reservados.
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <!-- JQuery Mini CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="./js/materialize.js"></script>
+    <script src="./js/custom.js"></script>
 </body>
 
 </html>

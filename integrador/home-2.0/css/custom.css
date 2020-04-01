@@ -18,9 +18,9 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    display: flex;
+    /* display: flex;
     min-height: 100vh;
-    flex-direction: column;
+    flex-direction: column; */
 }
 
 main {
@@ -52,6 +52,34 @@ nav {
     position: relative;
     border-image: auto;
 }
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+span {
+    font-size: 25px;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper img {
+    border-radius: 50%;
+    border: 5px solid var(--color-green);
+    margin-bottom: 15px;
+    height: 200px;
+}
+
+#wrapper h1 {
+    font-size: 25px;
+    line-height: 15px;
+}
+
 
 footer {
     margin-top: 70px;
