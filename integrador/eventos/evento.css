@@ -21,8 +21,9 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 .meu-perfil img{
-
+    
     border-radius: 30%;
+    width: 11%;
 }
 
 
@@ -34,7 +35,7 @@
     font-size:16px; 
     font-weight:normal;
     font-style:normal;
-    width:170px;
+    width:12%;
     padding: 1px 1px; /* quadrado em que esta o botão vertical/horizontal */
     cursor: pointer; /* comportamento do ponteiro quando no botão */
    
@@ -55,29 +56,27 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 .logo{
-    width: 80%;
+    
    
     background-color: rgba(255, 255, 255, 0.95);
    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     position: relative;
     top:-390px;
     left: 300px;
     text-align: center;
-    width: 900px;
+    width: 60%;
 }
 
 .logo img{
-    min-height: 264;
-    min-width: 600px;
-   max-height: 400px;
-   max-width:900;
+    width: 100%;
+    
 }
 .logo p{
     text-indent: 10%;
     text-align: justify;
-    padding: 2%;
+    padding: 3%;
     overflow: hidden;
 }
 
