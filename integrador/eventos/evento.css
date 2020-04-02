@@ -134,3 +134,75 @@ Aqui pretendo fazer esta porra toda virar containers repetitivos, e então alter
     text-align:center;
     font-style: italic;
 }
+
+.description-each-event img{
+    border-radius: 10%;
+    border: solid rgba(0, 0, 0, 0.3);
+    width: 30%;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@ MAPA LOCALIZQÇÃO DO EVENTO E ABOUT US
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.mapa{
+    position: relative;
+    width: 40%;
+    top: -300px;
+    background: white;
+    overflow: hidden;
+    padding: 1px;
+    border: solid rgba(255, 255, 255, 0.20) 0.2px;
+    border-radius: 5%;
+    left: 8.5%;
+    height: 300px;
+    cursor: pointer;
+}
+
+.mapa img{
+    width: 100%;
+}
+
+/* LOCALIZAÇÃO LOCAIS DE VENDE DE INGREÇO E ETC */
+
+.info-event{
+    position: relative;
+    top:-600px ;
+    left: 50%;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.80);
+    padding: 20px;
+    height: 260px;
+    border-radius: 5%;
+    font-family: Arciform Sans;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    letter-spacing: normal;
+    word-spacing: 0.5px;
+    line-height: 25px;
+
+}
+
+.contact-us{
+    position: fixed;
+    top: 20%;
+    left: 96.5%;
+    width: 10%;
+    background-color: rgba(47, 79, 79, 0.9);
+    height:160px;
+    border-radius: 25%;
+
+}
+
+.contact-us img{
+    
+    width: 25%;
+    border-radius: 80%;
+
+}
+
+.contact-us img:hover{
+    cursor: pointer;
+    width: 28%;
+}
