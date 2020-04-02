@@ -63,7 +63,7 @@
     margin-bottom: 25px;
     position: relative;
     top:-390px;
-    left: 200px;
+    left: 300px;
     text-align: center;
     width: 900px;
 }
@@ -74,30 +74,64 @@
    max-height: 400px;
    max-width:900;
 }
-p{
+.logo p{
     text-indent: 10%;
     text-align: justify;
     padding: 2%;
+    overflow: hidden;
 }
 
 
-  /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ------------------------PALESTRANTES
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
-.speakers img{
+/* Tentativas de deixar mais bonito não deeram certas por enquanto, 
+pois a ideia é poder colocar facilmente apenas usando HTML, novos palestrantes
+Aqui pretendo fazer esta porra toda virar containers repetitivos, e então alterar a porra toda de forma que possam se ajustar melhor, então dar uma animação a essas karalhas
+*/
+
+.speakers{
+    position: relative;
+    width: 50%;
+}
+
+.speakers-avatar{
     width: 200px;
-    height: 140px;
+    height: 170px;
     border-radius:100%;
-    border:solid 1px;
+    border:solid 1px black;
     position: relative;
     left: 220px;
     top: -350px;
-
+    cursor: pointer;
 }
 
-.speakers img:hover {
-    border-radius:1%;
+.speakers-avatar:hover {
+    border-radius:3%;
     
 }
 
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+------------------------SOBRE CADA PALESTRA
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.description-each-event{
+    position: relative;
+    top: -350px;
+    width: 80%;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.85);
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.description-each-event h1{
+    text-align: center;
+    font-family: Arciform Sans;
+}
+
+.description-each-event h2{
+    text-align:center;
+    font-style: italic;
+}
