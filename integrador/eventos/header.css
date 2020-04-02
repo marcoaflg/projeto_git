@@ -7,11 +7,12 @@ header {
     left: 0;
     background: rgba(47, 79, 79, 0.6);
     z-index: 2;
+    text-align: justify;
 
 }
 
 body{
-    background-image: url("/background/BG.jpg");
+    background-image: url("/background/photo-1523821741446-edb2b68bb7a0.jpg");
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;

@@ -65,16 +65,19 @@
     top:-390px;
     left: 200px;
     text-align: center;
+    width: 900px;
 }
+
 .logo img{
     min-height: 264;
     min-width: 600px;
    max-height: 400px;
    max-width:900;
 }
-.desc.event{
-    text-align: center;
-    padding: 15px 20px;
+p{
+    text-indent: 10%;
+    text-align: justify;
+    padding: 2%;
 }
 
 
@@ -84,12 +87,17 @@
 
 .speakers img{
     width: 200px;
-    height: 200px;
+    height: 140px;
     border-radius:100%;
     border:solid 1px;
     position: relative;
     left: 220px;
     top: -350px;
 
+}
+
+.speakers img:hover {
+    border-radius:1%;
+    
 }
 
