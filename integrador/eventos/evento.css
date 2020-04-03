@@ -4,16 +4,13 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .logo-button{
 
-    color: white;
-    font-family: Arciform Sans;
-    font-size: 30px;
-    left: 30px;
-    width: 50px;
-    text-shadow: 5px 1px 1px black;
-    transition: all s;
+    width: 200px;
+    padding: 30px;
+
     border-radius:1%;
     cursor: pointer;
 }
+
 
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -23,7 +20,10 @@
 .meu-perfil img{
     
     border-radius: 30%;
-    width: 11%;
+    height: 140px;
+    width: 250px;
+    padding: 1.5px;
+  
 }
 
 
@@ -35,9 +35,11 @@
     font-size:16px; 
     font-weight:normal;
     font-style:normal;
-    width:12%;
-    padding: 1px 1px; /* quadrado em que esta o botão vertical/horizontal */
+    width: 250px;
+    padding: 6px;
+    paddint /* quadrado em que esta o botão vertical/horizontal */
     cursor: pointer; /* comportamento do ponteiro quando no botão */
+    
    
   }
   
@@ -59,7 +61,6 @@
     
    
     background-color: rgba(255, 255, 255, 0.95);
-   
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 0px;
     position: relative;
@@ -92,7 +93,13 @@ Aqui pretendo fazer esta porra toda virar containers repetitivos, e então alter
 
 .speakers{
     position: relative;
-    width: 50%;
+    width: 60%;
+    left: 8%;
+    right: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
 }
 
 .speakers-avatar{
@@ -123,6 +130,7 @@ Aqui pretendo fazer esta porra toda virar containers repetitivos, e então alter
     margin: 20px auto;
     padding: 25px;
     border-radius: 8px;
+    text-align:  center;
 }
 
 .description-each-event h1{
@@ -135,7 +143,12 @@ Aqui pretendo fazer esta porra toda virar containers repetitivos, e então alter
     font-style: italic;
 }
 
+.description-each-event p{
+    text-align: justify;
+    text-indent: 10%;
+}
 .description-each-event img{
+
     border-radius: 10%;
     border: solid rgba(0, 0, 0, 0.3);
     width: 30%;
@@ -187,11 +200,13 @@ Aqui pretendo fazer esta porra toda virar containers repetitivos, e então alter
 .contact-us{
     position: fixed;
     top: 20%;
-    left: 96.5%;
-    width: 10%;
+    left: 94%;
+    width: 150px;
     background-color: rgba(47, 79, 79, 0.9);
     height:160px;
     border-radius: 25%;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -205,4 +220,12 @@ Aqui pretendo fazer esta porra toda virar containers repetitivos, e então alter
 .contact-us img:hover{
     cursor: pointer;
     width: 28%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-family: Arciform Sans;
+    letter-spacing: 5px;
+   top:-10%;
 }
