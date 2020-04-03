@@ -4,11 +4,16 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .logo-button{
 
-    width: 200px;
-    padding: 30px;
+    width: 250px;
+    height: 180px;
 
-    border-radius:1%;
+    padding: 5px;
+
+    border-radius:25%;
     cursor: pointer;
+    background-color: white;
+    position: relative;
+    left: 15px;
 }
 
 
@@ -16,7 +21,11 @@
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 -----------------------------   MENU RAPIDO
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-
+.meu-perfil{
+    position: relative;
+    top:50px;
+    left: 15px;
+}
 .meu-perfil img{
     
     border-radius: 30%;
@@ -36,8 +45,7 @@
     font-weight:normal;
     font-style:normal;
     width: 250px;
-    padding: 6px;
-    paddint /* quadrado em que esta o botão vertical/horizontal */
+    padding: 6px; /* quadrado em que esta o botão vertical/horizontal */
     cursor: pointer; /* comportamento do ponteiro quando no botão */
     
    
@@ -199,7 +207,7 @@ Aqui pretendo fazer esta porra toda virar containers repetitivos, e então alter
 
 .contact-us{
     position: fixed;
-    top: 20%;
+    top: 25%;
     left: 94%;
     width: 150px;
     background-color: rgba(47, 79, 79, 0.9);

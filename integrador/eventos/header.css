@@ -12,15 +12,25 @@ header {
 }
 
 body{
-    background-image: url("../background/photo-1523821741446-edb2b68bb7a0.jpg");
+    background-image: url("../background/NEagk.png");
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.header-button {
+
+
+.header-button img{
     
+    width:150px;
+    height:100px;
+    
+}
+
+
+.header-button {
+    top: -40px;
 text-indent:0;
 	display:inline-block;
 	color:#ffffff; /* Cor do Texto*/
@@ -54,12 +64,12 @@ text-indent:0;
 
 #button-login {
     position: relative;
-    left: 1000px;
+    left: 900px;
 }
 
 #button-cadastro {
     position: relative;
-    left: 1050px;
+    left: 950px;
 }
 
 #button-estou-aqui {
@@ -69,6 +79,6 @@ text-indent:0;
 
     border-radius: 50%;
     position: fixed;
-    left: 1280px;
+    left:90%;
     top:10px;
 }
