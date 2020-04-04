@@ -37,6 +37,10 @@ nav .nav-wrapper {
     width: 100%;
 }
 
+.brand-logo img {
+    margin-left: 25px;
+}
+
 .slider {
     margin-top: 100px;
 }
