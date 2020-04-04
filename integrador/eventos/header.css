@@ -11,8 +11,16 @@ header {
 
 }
 
+header img{
+    
+    position: relative;
+    left: 50px;
+    top: -10px
+    
+}
+
 body{
-    background-image: url("../background/NEagk.png");
+    background-image: url("../background/test.jpg");
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,17 +29,10 @@ body{
 
 
 
-.header-button img{
-    
-    width:150px;
-    height:100px;
-    
-}
-
 
 .header-button {
-    top: -40px;
-text-indent:0;
+    top: -60px;
+    text-indent:0;
 	display:inline-block;
 	color:#ffffff; /* Cor do Texto*/
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

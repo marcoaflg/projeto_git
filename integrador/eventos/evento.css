@@ -73,13 +73,17 @@
     margin-bottom: 0px;
     position: relative;
     top:-390px;
-    left: 300px;
+    left: 360px;
     text-align: center;
     width: 60%;
+   
 }
 
 .logo img{
     width: 100%;
+    height: auto;
+    
+    
     
 }
 .logo p{
@@ -116,7 +120,7 @@ Aqui pretendo fazer esta porra toda virar containers repetitivos, e então alter
     border-radius:100%;
     border:solid 1px black;
     position: relative;
-    left: 220px;
+    left: 280px;
     top: -350px;
     cursor: pointer;
 }
@@ -136,7 +140,7 @@ Aqui pretendo fazer esta porra toda virar containers repetitivos, e então alter
     overflow: hidden;
     background: rgba(255, 255, 255, 0.85);
     margin: 20px auto;
-    padding: 25px;
+    padding: 50px;
     border-radius: 8px;
     text-align:  center;
 }
