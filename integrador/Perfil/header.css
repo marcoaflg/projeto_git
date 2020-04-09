@@ -1,22 +1,50 @@
 header {
+
     min-height: 40px;
     max-height: 40px;
     position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+
     background: rgba(47, 79, 79, 0.6);
     z-index: 2;
 
 }
 
-body{
-    background-image: url("/background/BG.jpg");
+.header-nav {
+
+    display: flex;
+    max-height: 40px;
+
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+.item1 {
+
+    display: flex;
+    justify-content: space-around;
+
+    max-height: 40px;
+
+    position: relative;
+
+}
+.item2 {
+
+    display: flex;
+    justify-content: space-around;
+
+    max-height: 40px;
+
+}
+
 
 .header-button {
     
-text-indent:0;
+    text-indent:0;
 	display:inline-block;
 	color:#ffffff; /* Cor do Texto*/
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,36 +62,79 @@ text-indent:0;
     text-shadow:0px 3px 6px #2f6627;
     
 }
+
 .header-button:hover {
+
     color: gray; /* Cor de quando o mouse fica encima*/
+
 }
+
 .header-button:active {
+
 	position:relative;
 	top:2px;
 }
 
-#button-criar-evento {
-    position: relative;;
-    left: 200px;
-}
-
-#button-login {
-    position: relative;
-    left: 1000px;
-}
-
-#button-cadastro {
-    position: relative;
-    left: 1050px;
-}
-
 #button-estou-aqui {
 
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
 
     border-radius: 50%;
-    position: fixed;
-    left: 1280px;
-    top:10px;
+
+    margin-top: 20px;
+
+}
+
+#logo{
+
+    width: 125px;
+    height: 125px;
+
+}
+
+#login-ul {
+
+    display: block;
+    justify-content: center;
+    background-color: rgba(47, 79, 79);
+    border-color: rgba(47, 79, 79);
+    padding: 0;
+
+}
+label {
+
+    background-color: rgba(47, 79, 79, 0.6);
+    display:block;
+
+    box-sizing: border-box;
+    color:#ffffff;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight:normal;
+    font-style:normal;
+    
+    line-height:auto;
+
+	text-decoration:none;
+    text-align:justify;
+    text-indent: 12px;
+    text-shadow:0px 3px 6px #2f6627;
+    padding-right: 10;
+
+}
+
+input {
+
+    background-color:rgba(70, 119, 119, 0.8);
+    border-color: rgba(47, 79, 79, 0.4);
+    padding-left: 0;
+    color:#ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#login-button {
+
+    width: 170px;
+
 }

@@ -3,8 +3,11 @@
 <head>
 
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="./header.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./widget.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">    
   
 
     <title>Meu Perfil</title>
@@ -15,83 +18,143 @@
 
     <header>
 
-        <div>
+        <section class="header-nav">
 
-            <a href="criar-evento.html" class="header-button" id="button-criar-evento" title="Ir para página de criação de eventos">Criar evento</a>
+            <div class="item1">
 
-            <a href="pagina-de-login.html" class="header-button" id="button-login" title="Ir para página de login">Login</a>
+                <a href="home.html"> <img src="./icones/Home Button.png" id="logo" title="Voltar para a pagina inicial"/></a>
+                <a href="criar-evento.html" class="header-button" id="button-criar-evento" title="Ir para página de criação de eventos">Criar evento</a>
+                
+            </div>
 
-            <a href="pagina-de-cadastro.html" class="header-button" id="button-cadastro" title="Ir para página de cadastro">Cadastro</a>
+            <div class="item2">
+                
+                <!--<dd><a href="./login-screen.html" class="header-button" id="button-login" title="Ir para página de login">Login</a></dd>-->
+                <dd>
+                    <details class="header-button" id="login-button">
 
-        </div>
+                        <summary>Login</summary>
 
-        <a href="confimar-presenca.html" title="Confirmar presença em um evento"> <img src="/icones/button-estou-aqui.jpg" id="button-estou-aqui"> </a>
+                        <ul id="login-ul">
+                            <li>
+                                <label for="User">Usuário</label>
+                                <input type="text" id="User" name="Name"/>
+                            </li>
+                            <li>
+                                <label for="Password">Senha</label>
+                                <input type="text" id="Password" name="Password"/>
+                            </li>
+                    </details>
+                </dd>
+                <dd><a href="pagina-de-cadastro.html" class="header-button" id="button-cadastro" title="Ir para página de cadastro">Cadastro</a></dd>
+                <!--<dd><a href="confimar-presenca.html"> <img src="./icones/button-estou-aqui.jpg" id="button-estou-aqui" title="Confirmar presença em um evento"></a></dd>-->
+                <dd>
+                    <details>
+                        <summary><img src="./icones/button-estou-aqui.jpg" id="button-estou-aqui" title="Confirmar presença em um evento"></summary>
+                            
+                            Digite aqui o ID do evento<br> para confirmar sua presença
+                            <label for="EventID">ID do Evento</label>
+                            <input type="text" id="User" name="Name"/>
 
+                    </details>
+                </dd>
+            </div>
+
+        </section>
+        
     </header>
 
-    <div id="menu-rapido">
+    <ul class="teste">
+        <li></li>
+    </ul>
 
-        <a href="perfil.html" class="button-p" id="button-meu-perfil">Meu perfil</a>
+   <ul class="tela-do-perfil">
+        <li class= "lista-da-esquerda-do-perfil">
 
-        <a href="historico.html" class="button-p" id="button-historico">Histórico</a>
+            <ul class="menu-rapido-do-perfil"> 
+                <li><a href="perfil.html" class="button-p" id="button-meu-perfil">Meu perfil</a></li>
+                <li><a href="historico.html" class="button-p" id="button-historico">Histórico</a></li>
+                <li><a href="certificados.html" class="button-p" id="button-certificados">Certificados</a></li>
+                <li><a href="interesses.html" class="button-p" id="button-interesses">Interesses</a></li>
+                <li><a href="meus-dados.html" class="button-p" id="button-meus-dados">Meus dados</a></li>
+                <li><a href="pesquisar-eventos.html" class="button-p" id="button-eventos">Eventos</a></li>
+                <li><a href="criar-evento.html" class="button-p" id="button-criar-evento-2">Criar evento</a></li>
+                <li><a href="meus-events.html" class="button-p" id="button-meus-eventos">Meus eventos</a></li>
+                <li><a href="participar-de-evento.html" class="button-p" id="button-participar">Participar</a></li>
+                <li><a href="pesquisar-evento.html" class="button-p" id="button-pesquisar">Pesquisar</a></li> 
+            </ul>
+        </li>
 
-        <a href="certificados.html" class="button-p" id="button-certificados">Certificados</a>
+        <li class= "lista-do-meio-do-perfil">
 
-        <a href="interesses.html" class="button-p" id="button-interesses">Interesses</a>
-        
-        <a href="meus-dados.html" class="button-p" id="button-meus-dados">Meus dados</a>
+            <ul id="perfil">
 
-        <a href="pesquisar-eventos.html" class="button-p" id="button-eventos">Eventos</a>
+                <li>
+                    <div class= "box" id="box-perfil">
 
-        <a href="criar-evento.html" class="button-p" id="button-criar-evento-2">Criar evento</a>
+                        Meu perfil
+            
+                    </div>
+                </li>
 
-        <a href="meus-events.html" class="button-p" id="button-meus-eventos">Meus eventos</a>
+                <ul id="perfil2">
 
-        <a href="participar-de-evento.html" class="button-p" id="button-participar">Participar</a>
+                    <ul class="identificação-do-perfil">
 
-        <a href="pesquisar-evento.html" class="button-p" id="button-pesquisar">Pesquisar</a>
+                        <li>
+                            <div class="box" id="cargo">
 
-    </div>
+                                Estudante
 
-    <div class= "box" id="box-perfil">
-        Meu perfil
+                            </div>
+                        </li>
 
+                        <li>
+                            <div>
 
-    </div>
+                                <img src="./img/img-perfil.jpg" id="foto-de-perfil">
+                        
+                            </div>
+                        </li>
 
-    <div class="box" id="box-descricao-perfil">
-        Descrição do perfil, titulos, formação, representação, etc<br>Ex.: Corredor de labirintos, comedor de frutas, bolinhas e eventualmente fantasmas.<br>Rei dos clássicos de arcade.<br> "Waka waka" - Shakira imitando Pac-Man
-    </div>
+                        <li>
+                            <div class="box" id="user-name">
 
-    <div class="box" id="cargo">
-        Estudante
-    </div>
+                                Pac-man
+                        
+                            </div>
+                        </li>
 
-    <div>
+                        <li>
+                            <div class="box" id="social-network">
+                
+                                <a href="https://discordapp.com/" id="icone-discord"><img src="./icones/Discord.png" class="icone"></a>
+                                <a href="https://www.facebook.com/" id="icone-facebook"><img src="./icones/facebook.png"class="icone"></a>
+                                <a href="https://mail.google.com/" id="icone-gmail"><img src="./icones/gmail.png" class="icone"></a>
+                                <a href="https://web.whatsapp.com/" id="icone-whatsapp"><img src="./icones/whatsapp.png" class="icone"></a>
+                        
+                            </div>
+                        </li>
 
-        <img src="/img/img-perfil.jpg" id="foto-de-perfil">
+                    </ul>
 
-    </div>
+                    <div class="box" id="box-descricao-perfil">
+                         Descrição do perfil, titulos, formação, representação, etc<br>Ex.: Corredor de labirintos, comedor de frutas, bolinhas e eventualmente fantasmas.<br>Rei dos clássicos de arcade.<br> "Waka waka" - Shakira imitando Pac-Man
+                    </div>
 
-    <div class="box" id="user-name">
+                </ul>
 
-        Pac-man
+                <ul id="perfil3">
 
-    </div>
+                    <div class="box" id="box-visualizacao-rapida">
 
-    <div class="box" id="social-network">
-        
-        <a href="https://discordapp.com/" id="icone-discord"><img src="/icones/Discord.png" class="icone"></a>
-        <a href="https://www.facebook.com/" id="icone-facebook"><img src="/icones/facebook.png"class="icone"></a>
-        <a href="https://mail.google.com/" id="icone-gmail"><img src="/icones/gmail.png" class="icone"></a>
-        <a href="https://web.whatsapp.com/" id="icone-whatsapp"><img src="/icones/whatsapp.png" class="icone"></a>
+                    </div>
 
-    </div>
+                </ul>
 
-    <div class="box" id="box-visualizacao-rapida">
+            </ul>
 
-
-    </div>
-
+        </li>  
+   </ul>
 </body>
-</html>
+</html>     
