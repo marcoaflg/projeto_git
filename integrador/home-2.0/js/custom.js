@@ -1,8 +1,8 @@
 //Tooltip - Bottom description ticket 
-$(document).ready(function(){
+$(document).ready(function () {
     $('.tooltipped').tooltip();
-  });
-  
+});
+
 // Hamburguer Down Menu 
 $('.dropdown-trigger').dropdown();
 
