@@ -1,5 +1,7 @@
 body{
-    background-image: url("../background/BG.jpg");
+    background-image: linear-gradient(rgb(63, 160, 127), rgb(9, 84, 144));
+    background-repeat: no-repeat;
+    margin: 0;
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -239,6 +241,12 @@ ul {
   
 }
 
+#empty-space {
+
+    height: 100px;
+
+}
+
 /*-------------campos de preenchimento------------*/
 
 .login-screen {
@@ -252,3 +260,55 @@ ul {
 
 }
 
+/*-----------foooter--------*/
+footer {
+
+    color:#ffffff;
+    background-color:rgba(47, 79, 79, 0.4);
+
+}
+
+
+#footer-column {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.equipe-itens {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.equipe {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img-perfil {
+
+    width: 125px;
+    height: 125px;
+
+    border-radius: 50%;
+
+}
+
+.li-equipe-itens {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+
+}
